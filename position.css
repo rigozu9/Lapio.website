@@ -1,27 +1,36 @@
-/* style.css */
-
 .first-box-container,
 .second-box-container,
 .third-box-container {
-  background-color: transparent;
   display: inline-block;
   width: 250px;
   height: 150px;
-  margin-right: 50px; /* Add space to the right of each container */
+  margin-right: 50px;
+  border: 8px solid;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: top;
 }
 
 .first-box-container {
   background-color: red;
+  border-color: green;
 }
 
 .second-box-container {
   background-color: yellow;
+  border-color: red;
 }
 
 .third-box-container {
   background-color: green;
+  border-color: yellow;
 }
 
 p {
   margin: 0;
+  color: blue;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
 }
