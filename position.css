@@ -1,0 +1,27 @@
+/* style.css */
+
+.first-box-container,
+.second-box-container,
+.third-box-container {
+  background-color: transparent;
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin-right: 50px; /* Add space to the right of each container */
+}
+
+.first-box-container {
+  background-color: red;
+}
+
+.second-box-container {
+  background-color: yellow;
+}
+
+.third-box-container {
+  background-color: green;
+}
+
+p {
+  margin: 0;
+}
