@@ -1,1 +1,31 @@
-p { background-color: red; }
+h1 {
+    color: blue;
+  }
+  
+  h2 {
+    color: #800020;
+  }
+  
+  ul > li > strong {
+    color: pink;
+  }
+  
+  li {
+    color: pink;
+  }
+
+  h3 {
+    color: #800020;
+  }
+  
+  p {
+    color: red;
+  }
+  
+  p em {
+    color: #7a9b20;
+  }
+  
+  p strong {
+    color: pink;
+  }
